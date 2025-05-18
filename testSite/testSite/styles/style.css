@@ -1,0 +1,50 @@
+p {
+    color: rgb(255, 8, 123);
+    background-color: rgb(53, 29, 29);
+    background-image: -o-linear-gradient();
+    border: 1px solid rgb(243, 183, 183);
+    font-size: 60px;
+    text-align: center;
+
+}
+
+ol {
+    color: brown;
+    font-size: 20px;
+    text-align: center;
+
+}
+
+nav a {
+    color:rgb(255, 8, 123);
+    font-size: 30px;
+    padding: 30px;
+}
+img {
+    display: block;
+    width: 800px;
+    margin: 0 auto;
+
+}
+
+html {
+    font-size: 19px;
+    font-family: "Merriweather", serif;
+    text-align: center;
+    background-color: #C86FF5;
+}
+
+body {
+    width: 900px;
+    margin: auto;
+    background-color: rgb(63, 137, 202);
+    padding: 0 20px 20px 20px;
+    border: 5px seagreen;
+}
+
+h1 {
+    margin: 0;
+    padding: 20px 0;
+    color: #C86FF5;;
+    text-shadow: 3px 3px 1px brown; /* Первое значение пикселей задаёт горизонтальное смещение. Второе значение пикселей задаёт вертикальное смещение. Третье значение пикселей задаёт радиус размытия тени */
+}
