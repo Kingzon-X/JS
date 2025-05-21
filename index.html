@@ -3,8 +3,9 @@
 
 <head>
   <meta charset="utf-8" />
+  <title>Travels</title>
   <nav>
-    <li<a href = "#home"> Home </a></li>
+    <li><a href = "#home"> Main </a></li>
     <li href = "#USA"> США </li>
     <li href = "#Indonesia"> Индонезия </li>
   </nav>
@@ -12,23 +13,24 @@
     href="https://fonts.googleapis.com/css2?family=Merriweather:ital,opsz,wght@0,18..144,300..900;1,18..144,300..900&display=swap"
     rel="stylesheet" type="text/css">
   <link href="styles/style.css" rel="stylesheet" type="text/css">
-  
+
 
   <!-- Указываем браузеру на таблицу стилей. Ссылка на фонд, потом путь к папке -->
-  <title>Моя тестовая страница</title>
 
 
 </head>
 
 <body>
+  
   <div class="marquee">Лечу, как самолёт!</div>
   <h1>Путешествия - это здорово!</h1>
   <img src="images/city.jpg" alt="Path error" />
   <p>Моё путешествие по миру...</p>
-  <ol>Тайвань</ol>
-  <ol>Индонезия</ol>
-  <ol>Корея</ol>
-  <section id="home" href="https://www.onetwotrip.com/ru/blog/guides/america/21-days-in-usa-route-by-travel-expert-onetwotrip/">США</section>
+  <ul class="main-list">
+    <li><a id="home" href="https://www.onetwotrip.com/ru/blog/guides/america/21-days-in-usa-route-by-travel-expert-onetwotrip/">Главная</a></li>
+    <li><a id="USA" href="https://www.onetwotrip.com/ru/blog/guides/america/21-days-in-usa-route-by-travel-expert-onetwotrip/">Штаты</a></li>
+    <li><a id="Korea" href="https://www.onetwotrip.com/ru/blog/guides/america/21-days-in-usa-route-by-travel-expert-onetwotrip/">Корея</a></li>
+  </ul>
   <p>Continue...</p>
   <button> Изменить пользователя </button>
   <style>
@@ -37,29 +39,6 @@
     }
   </style> 
     <script src="scripts/main.js"></script>
+    
 </body>
-
-<style>
-    
-  html {
-    background-image: url('images/53.jpg');
-    background-size:cover; /* Растягивает на весь экран */
-    background-position: center; /* Центрирует изображение */
-    background-repeat: no-repeat; /* Запрещает повторение */
-    background-attachment: fixed; /* Фиксирует фон при прокрутке */
-    margin: 1;
-    height: 140vh;
-  }
-  body {
-    background-image: url('images/city.jpg');
-    background-size:cover; /* Растягивает на весь экран */
-    background-position: center; /* Центрирует изображение */
-    background-repeat: no-repeat; /* Запрещает повторение */
-    background-attachment: fixed; /* Фиксирует фон при прокрутке */
-    margin: 1;
-    height: 140vh;
-
-    
-  }
-</style>
 </html>
