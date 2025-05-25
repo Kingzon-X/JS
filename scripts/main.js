@@ -1,5 +1,3 @@
-var myHeading = document.querySelector("h1");
-myHeading.textContent = "Hello world!";
 
 // Листинг фото по клику
 var myImage = document.querySelector("img");
@@ -18,21 +16,23 @@ document.querySelector("h1").onclick = function () {
 
 // Приветствие
 var myButton = document.querySelector("button");
-var myHeading = document.querySelector("h1");
+var myHeading = document.querySelector("h2");
 
 function setUserName() {
-  var myName = prompt("Введите ваше имя.");
-  localStorage.setItem("Имя", myName);
-  myHeading.textContent = "Добро пожаловать в персональный гид, " + myName;
+    var myName = prompt("Введите ваше имя.");
+    if (myName) {
+        localStorage.setItem("Имя", myName);
+        myHeading.textContent = "Добро пожаловать в персональный гид, " + myName + "!";
+    }
 }
+
+myButton.onclick = function() {
+    setUserName();
+};
 
 if (!localStorage.getItem("Имя")) {
-  setUserName();
+    setUserName();
 } else {
-  var storedName = localStorage.getItem("Имя");
-  myHeading.textContent = "Добро пожаловать в персональный гид, " + storedName + "!";
+    var storedName = localStorage.getItem("Имя");
+    myHeading.textContent = "Добро пожаловать в персональный гид, " + storedName + "!";
 }
-
-myButton.onclick = function () {
-  setUserName();
-};
