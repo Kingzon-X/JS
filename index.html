@@ -1,44 +1,53 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="ru">
 
 <head>
   <meta charset="utf-8" />
   <title>Travels</title>
-  <nav>
-    <li><a href = "#home"> Main </a></li>
-    <li href = "#USA"> США </li>
-    <li href = "#Indonesia"> Индонезия </li>
-  </nav>
-  <link
-    href="https://fonts.googleapis.com/css2?family=Merriweather:ital,opsz,wght@0,18..144,300..900;1,18..144,300..900&display=swap"
-    rel="stylesheet" type="text/css">
-  <link href="styles/style.css" rel="stylesheet" type="text/css">
-
-
-  <!-- Указываем браузеру на таблицу стилей. Ссылка на фонд, потом путь к папке -->
-
-
+  <link rel="icon" type="image/png" sizes="16x16" href="icon/favicon-16x16.png">
+  <link rel="manifest" href="/manifest.json">
+  <link href="https://fonts.googleapis.com/css2?family=Merriweather&display=swap" rel="stylesheet">
+  <link href="styles/style.css" rel="stylesheet">
+  <link href="scripts/main.js">
 </head>
 
 <body>
-  
-  <div class="marquee">Лечу, как самолёт!</div>
-  <h1>Путешествия - это здорово!</h1>
-  <img src="images/city.jpg" alt="Path error" />
-  <p>Моё путешествие по миру...</p>
-  <ul class="main-list">
-    <li><a id="home" href="https://www.onetwotrip.com/ru/blog/guides/america/21-days-in-usa-route-by-travel-expert-onetwotrip/">Главная</a></li>
-    <li><a id="USA" href="https://www.onetwotrip.com/ru/blog/guides/america/21-days-in-usa-route-by-travel-expert-onetwotrip/">Штаты</a></li>
-    <li><a id="Korea" href="https://www.onetwotrip.com/ru/blog/guides/america/21-days-in-usa-route-by-travel-expert-onetwotrip/">Корея</a></li>
-  </ul>
-  <p>Continue...</p>
-  <button> Изменить пользователя </button>
-  <style>
-    button {
-    background-image: url('images/city.jpg');
-    }
-  </style> 
-    <script src="scripts/main.js"></script>
-    
+  <header>
+    <nav>
+      <a href="#" class="logo"> путешествуем </a>
+      <ul class = "gid">
+        <li><a href="#USA"> USA </a></li>
+        <li><a href="#Ind"> Indonesia </a></li>
+        <li><a href="#Ru"> Russia </a></li>
+        <li><a href="#Italy"> Italy </a></li>
+        <li><a href="#Africa"> Africa </a></li>
+        <li><a href="#Germany"> Germany </a></li>
+        <li><a href="#Austria"> Austria </a></li>
+        <li><a href="#France"> France </a></li>
+        <li><a href="#Litva">Litva" </a></li>
+        <li><a href="#Japan"> Japan </a></li>
+        <li><a href="#China"> Chinay </a></li>
+        <li><a href="#Gruzia"> Gruzia </a></li>
+        <li><a href="#Vengria"> Vengria </a></li>
+        <li><a href="#Brazil"> Brazil </a></li>
+        <li><a href="#Australia"> Australia </a></li>
+        <li><a href="#Mongolia"> Mongolia </a></li>
+        <li><a href="#KZ"> KZ </a></li>
+        <li><a href="#Korea"> Korea </a></li>
+        <li><a href="#Rumin"> Rumin </a></li>
+        <li><a href="#Great Britain"> Great Britain </a></li>
+        <li><a href="#India"> India </a></li>
+        <li><a href="#Mexica"> Mexica </a></li>
+        <li><a href="#Spain"> Spain </a></li>
+        <li><a href="#Monaco"> Monaco </a></li>
+     </ul>
+    </nav>
+    <!-- <img src="images/city.jpg" alt="Ночной город" /> -->
+  </header>
+ 
+  <h2> HELLO </h2>
+  <button onclick="changeUser()">Изменить пользователя</button>
+
+  <script src="scripts/main.js"></script>
 </body>
 </html>
