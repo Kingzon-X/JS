@@ -1,10 +1,11 @@
 
-button {
+#name {
   position: fixed;
   bottom: 0px;
   left: 0px;
   width: 140px;
   background-color: #0a5466;
+  cursor: pointer;
 }
 
 .gid a {
@@ -48,7 +49,24 @@ button {
   }
 }
 
+#react-app h1 {
+  position: fixed;
+  color: aqua;
+  bottom: 0;
+  right: 10px;
 
+}
+
+#react-app button {
+  position: fixed;
+  color: aqua;
+  background-color: #3e2b47;
+  bottom: 10px;
+  right: 180px;
+  width: 90px;
+  padding: 10px 5px;
+  cursor: pointer;
+}
 
 img {
   display: block;
@@ -99,7 +117,7 @@ body {
 h1 {
   margin: 0;
   padding: 20px 0;
-  color: #C86FF5;
+  color: #3e2b47;
   ;
   text-shadow: 3px 3px 2px rgb(12, 12, 12);
   /* Первое значение пикселей задаёт горизонтальное смещение. Второе значение пикселей задаёт вертикальное смещение. Третье значение пикселей задаёт радиус размытия тени */

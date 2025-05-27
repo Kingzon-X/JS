@@ -8,7 +8,6 @@
   <link rel="manifest" href="/manifest.json">
   <link href="https://fonts.googleapis.com/css2?family=Merriweather&display=swap" rel="stylesheet">
   <link href="styles/style.css" rel="stylesheet">
-  <link href="scripts/main.js">
 </head>
 
 <body>
@@ -45,9 +44,18 @@
     <!-- <img src="images/city.jpg" alt="Ночной город" /> -->
   </header>
  
-  <h2> HELLO </h2>
-  <button onclick="changeUser()">Изменить пользователя</button>
+  <button id="name" onclick="changeUser()">Изменить пользователя</button>
 
-  <script src="scripts/main.js"></script>
+  <div id="Test"></div>
+  <div id="react-app"></div>
+
+  <!-- Подключаем React -->
+  <script src="https://unpkg.com/react@17/umd/react.development.js"></script>
+  <script src="https://unpkg.com/react-dom@17/umd/react-dom.development.js"></script>
+  <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+  
+  <!-- Подключаем наш React-компонент -->
+  <script src="scripts/app.js"></script>
+  <script src="scripts/test.js"></script>
 </body>
 </html>
